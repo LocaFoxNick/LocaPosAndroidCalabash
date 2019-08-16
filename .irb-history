@@ -1,0 +1,6 @@
+start_test_server_in_background
+scroll("* id:\"LoginUsersList\"", :down)
+element_exists("TextView text:'Charl Truter'")
+element_exists("TextView text:\"Charl Truter\"")
+element_exists("* text:'Charl Truter'")
+exit
